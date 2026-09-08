@@ -2,7 +2,6 @@ import { CliUsageError, parseServiceArgs } from "#lib/cli/index.ts";
 import { readManifest } from "#lib/manifest/index.ts";
 
 import {
-  runAccept,
   runContentAccept,
   runContentSchema,
   runContentSubject,
@@ -28,7 +27,6 @@ import {
 
 const FLAGS = [
   "preflight",
-  "accept",
   "state",
   "fields-schema",
   "fields-subject",
@@ -120,16 +118,6 @@ async function main(): Promise<void> {
   if (args["richtext-accept"] === true) {
     const { vertical, address } = requireSurface(args);
     return runRichTextAccept(projectPath, vertical, address);
-  }
-
-  if (args["accept"] === true) {
-    const { vertical, address } = requireSurface(args);
-    return runAccept({
-      projectPath,
-      vertical,
-      address,
-      harnessOrigin: requireOrigin(args, "harness-origin"),
-    });
   }
 
   throw new CliUsageError(`one of ${FLAGS.map((flag) => `--${flag}`).join(" | ")} is required`);

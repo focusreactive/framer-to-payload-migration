@@ -1,4 +1,3 @@
-export { runAccept } from "./accept/accept.ts";
 export { runContentAccept } from "./content-accept.ts";
 export { runContentSchema } from "./content-schema.ts";
 export { runContentSubject } from "./content-subject.ts";
