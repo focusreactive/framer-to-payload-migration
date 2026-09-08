@@ -71,6 +71,13 @@ picks up at the first step that is not `done`.
 | [Freezing a published site so the migration is verifiable](guides/freeze-a-published-site-for-verifiable-migration.md) | How do you prove a rebuilt page matches the original, when screenshots cannot?                                      |
 | [Framer sections to Payload blocks](guides/framer-sections-to-payload-blocks.md)                                       | Framer has no block model — so where does the Payload one come from?                                                |
 
+## Demo
+
+|                    |                                                                                          |
+| ------------------ | ---------------------------------------------------------------------------------------- |
+| Reference (Framer) | [pixwave.framer.website](https://pixwave.framer.website/)                                |
+| Migrated (Payload) | [framer-to-payload-migration-demo](https://framer-to-payload-migration-demo.vercel.app/) |
+
 ## 🚀 Need Help with Headless CMS Migration?
 
 This repository is maintained by [FocusReactive](https://focusreactive.com) — a specialized Next.js and Headless CMS migration agency.
