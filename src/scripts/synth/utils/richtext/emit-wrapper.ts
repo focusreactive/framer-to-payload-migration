@@ -26,7 +26,7 @@ type RichTextData = SerializedEditorState;
 
 export default function ${name}({ data, ...rest }: { data: RichTextData } & Record<string, unknown>) {
   return (
-    <div className=${JSON.stringify(className)} {...rest}>
+    <div className={${JSON.stringify(className)}} {...rest}>
       <RichText data={data} />
     </div>
   );
