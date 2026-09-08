@@ -4,6 +4,11 @@ import { pascalCase } from "./utils/names.ts";
 
 const BASE_ROUTE_SEGMENTS = new Set(["api", "admin"]);
 
+function camelCase(value: string): string {
+  const pascal = pascalCase(value);
+  return pascal.charAt(0).toLowerCase() + pascal.slice(1);
+}
+
 export function detailRoutePath(routePattern: string): string {
   const segments = routePattern.replace(/^\/+/, "").split("/");
   const staticSegments = segments.filter((segment) => !segment.startsWith(":"));
@@ -27,7 +32,7 @@ export function emitDetailWrapper(opts: {
     slugField: string;
     meta: { title?: string | undefined; description?: string | undefined; ogImage?: string | undefined };
   };
-  template: { sectionId: string }[];
+  template: { sectionId: string; itemFields: string[] }[];
 }): string {
   const imports = opts.template
     .map(
@@ -35,7 +40,20 @@ export function emitDetailWrapper(opts: {
         `import ${pascalCase(binding.sectionId)} from "@/detail/${opts.collectionKey}/sections/${pascalCase(binding.sectionId)}";`,
     )
     .join("\n");
-  const sections = opts.template.map((binding) => `      <${pascalCase(binding.sectionId)} doc={doc} />`).join("\n");
+
+  const propsConsts = opts.template
+    .map((binding) => {
+      const varName = camelCase(binding.sectionId);
+      return (
+        `  const ${varName}Fields = collectionFields.filter((field) => (${JSON.stringify(binding.itemFields)} as string[]).includes(field.name));\n`
+        + `  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- normalized props are checked at runtime, not against the component's static prop type\n`
+        + `  const ${varName}Props: any = normalizeRecord(${varName}Fields, doc as unknown as Record<string, unknown>, ctx);`
+      );
+    })
+    .join("\n");
+  const sections = opts.template
+    .map((binding) => `      <${pascalCase(binding.sectionId)} {...${camelCase(binding.sectionId)}Props} />`)
+    .join("\n");
 
   const meta = opts.pageBinding.meta;
   const metaLine = (key: "title" | "description") =>
@@ -51,6 +69,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getPayload } from "payload";
 import React from "react";
+
+import { collectionFieldTypes } from "@/lib/collection-field-types";
+import { normalizeRecord } from "@/lib/normalize-values";
+import { normalizeCtx as ctx } from "@/lib/normalize-ctx";
 
 ${imports}
 
@@ -91,6 +113,9 @@ export default async function DetailPage({ params }: Args) {
   const { slug } = await params;
   const doc = await loadDoc(slug);
   if (!doc) notFound();
+
+  const collectionFields = collectionFieldTypes[${JSON.stringify(opts.collectionSlug)}] ?? [];
+${propsConsts}
 
   return (
     <main>
