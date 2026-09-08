@@ -1,0 +1,22 @@
+{
+  "status": 404,
+  "finalUrl": "https://pixwave.framer.website/__migration-probe-404__",
+  "redirectChain": [],
+  "headers": {
+    "alt-svc": "h3=\":443\"; ma=2592000",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "content-encoding": "br",
+    "content-length": "27667",
+    "content-type": "text/html",
+    "date": "Tue, 08 Sep 2026 12:33:05 GMT",
+    "etag": "\"d8b15a55296e92e918caac052714e414\"",
+    "framer-site-id": "0f45fc1ad60599a39e5811337af371fe33082404ee889f02f396dcc075fca057",
+    "last-modified": "Sat, 14 Feb 2026 12:46:27 GMT",
+    "link": "<https://framerusercontent.com>; rel=\"preconnect\", <https://framerusercontent.com>; rel=\"preconnect\"; crossorigin=\"\"",
+    "server": "Framer/feb0bfd",
+    "server-timing": "region;desc=\"eu-central-1\", cache;desc=\"cached\", ssg-status;desc=\"optimized\", version;desc=\"feb0bfd\", instance;desc=\"6c2de2b\", route;dur=1;desc=\"id=feXup_8zM&locale=default\", country;desc=\"DE\"",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "Accept-Encoding, Accept",
+    "x-content-type-options": "nosniff"
+  }
+}

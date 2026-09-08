@@ -1,0 +1,187 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "kind": "static",
+      "localeId": "default",
+      "sources": [
+        "sitemap",
+        "crawl"
+      ]
+    },
+    {
+      "route": "/about-us",
+      "kind": "static",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/blogs",
+      "kind": "static",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/blogs/building-authentic-social-media-communities-that-truly-engage-audiences",
+      "kind": "item",
+      "collectionKey": "QkXABjXJz",
+      "slug": "building-authentic-social-media-communities-that-truly-engage-audiences",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/blogs/harnessing-the-power-of-data-to-improve-social-media-campaigns",
+      "kind": "item",
+      "collectionKey": "QkXABjXJz",
+      "slug": "harnessing-the-power-of-data-to-improve-social-media-campaigns",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/blogs/how-consistency-builds-a-lasting-brand-identity-online",
+      "kind": "item",
+      "collectionKey": "QkXABjXJz",
+      "slug": "how-consistency-builds-a-lasting-brand-identity-online",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/blogs/how-consistent-branding-strengthens-recognition-across-social-media-platforms",
+      "kind": "item",
+      "collectionKey": "QkXABjXJz",
+      "slug": "how-consistent-branding-strengthens-recognition-across-social-media-platforms",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/blogs/mastering-short-form-video-to-boost-brand-visibility-online",
+      "kind": "item",
+      "collectionKey": "QkXABjXJz",
+      "slug": "mastering-short-form-video-to-boost-brand-visibility-online",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/blogs/mastering-visual-storytelling-to-boost-your-brand-s-online-presence",
+      "kind": "item",
+      "collectionKey": "QkXABjXJz",
+      "slug": "mastering-visual-storytelling-to-boost-your-brand-s-online-presence",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/blogs/transforming-audience-insights-into-creative-strategies-that-drive-real-engagement",
+      "kind": "item",
+      "collectionKey": "QkXABjXJz",
+      "slug": "transforming-audience-insights-into-creative-strategies-that-drive-real-engagement",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/case-studies",
+      "kind": "static",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/case-studies/circuit",
+      "kind": "item",
+      "collectionKey": "UwqKE1tVN",
+      "slug": "circuit",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/case-studies/glow",
+      "kind": "item",
+      "collectionKey": "UwqKE1tVN",
+      "slug": "glow",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/case-studies/lumen",
+      "kind": "item",
+      "collectionKey": "UwqKE1tVN",
+      "slug": "lumen",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/case-studies/pulse",
+      "kind": "item",
+      "collectionKey": "UwqKE1tVN",
+      "slug": "pulse",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/case-studies/vibe",
+      "kind": "item",
+      "collectionKey": "UwqKE1tVN",
+      "slug": "vibe",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/case-studies/vortex",
+      "kind": "item",
+      "collectionKey": "UwqKE1tVN",
+      "slug": "vortex",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    },
+    {
+      "route": "/contact",
+      "kind": "static",
+      "localeId": "default",
+      "sources": [
+        "sitemap"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "key": "QkXABjXJz",
+      "routePattern": "/blogs/:slug",
+      "itemCount": 7
+    },
+    {
+      "key": "UwqKE1tVN",
+      "routePattern": "/case-studies/:slug",
+      "itemCount": 6
+    }
+  ]
+}

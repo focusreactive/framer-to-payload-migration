@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 2,
+  "entries": {
+    "https://pixwave.framer.website/": {
+      "url": "https://pixwave.framer.website/",
+      "kind": "page",
+      "paths": {
+        "raw": "probe/home.html",
+        "rendered": "probe/index.rendered.html",
+        "styles": "probe/index.styles.json"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://pixwave.framer.website/",
+        "redirectChain": [],
+        "contentType": "text/html",
+        "etag": "\"ab77eb317a6f4f667d8f141b547d961c\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:28 GMT"
+      },
+      "sha256": "7826dccc3d44354a62ed1f43fcad8f5f7a205ba2ee8f7f36dd906c702f5c3710",
+      "size": 1494659,
+      "fetchedAt": "2026-09-08T12:25:21.057Z"
+    },
+    "https://pixwave.framer.website/case-studies/lumen": {
+      "url": "https://pixwave.framer.website/case-studies/lumen",
+      "kind": "page",
+      "paths": {
+        "raw": "pages/case-studies/lumen/index.html",
+        "rendered": "pages/case-studies/lumen/index.rendered.html",
+        "styles": "pages/case-studies/lumen/index.styles.json"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://pixwave.framer.website/case-studies/lumen",
+        "redirectChain": [],
+        "contentType": "text/html",
+        "etag": "\"72b24fb2a605c00119f4f39687286070\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:27 GMT"
+      },
+      "sha256": "8bbfef776e3ea856c722113bb80640691f4f71b65ea52c066d229587c7d877a2",
+      "size": 391150,
+      "fetchedAt": "2026-09-08T12:25:32.588Z"
+    },
+    "https://pixwave.framer.website/blogs/how-consistency-builds-a-lasting-brand-identity-online": {
+      "url": "https://pixwave.framer.website/blogs/how-consistency-builds-a-lasting-brand-identity-online",
+      "kind": "page",
+      "paths": {
+        "raw": "pages/blogs/how-consistency-builds-a-lasting-brand-identity-online/index.html",
+        "rendered": "pages/blogs/how-consistency-builds-a-lasting-brand-identity-online/index.rendered.html",
+        "styles": "pages/blogs/how-consistency-builds-a-lasting-brand-identity-online/index.styles.json"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://pixwave.framer.website/blogs/how-consistency-builds-a-lasting-brand-identity-online",
+        "redirectChain": [],
+        "contentType": "text/html",
+        "etag": "\"6122fe21a7889c09edfd2559755c8d5a\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:27 GMT"
+      },
+      "sha256": "65524307e7b8d0fa5c6018b23bf1c56a8c049b6c21afba0b646ffcc41db2e7c8",
+      "size": 391767,
+      "fetchedAt": "2026-09-08T12:25:36.255Z"
+    },
+    "https://pixwave.framer.website/robots.txt": {
+      "url": "https://pixwave.framer.website/robots.txt",
+      "kind": "probe",
+      "paths": {
+        "raw": "probe/robots.txt"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://pixwave.framer.website/robots.txt",
+        "redirectChain": [],
+        "contentType": "text/plain",
+        "etag": "\"42065275fcf23106341db36b73786500\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:26 GMT"
+      },
+      "sha256": "2e4bb59b340aafba78e98f6474285f0e4f414e79be4ca83877b9172289197167",
+      "size": 75,
+      "fetchedAt": "2026-09-08T12:25:20.589Z"
+    },
+    "https://pixwave.framer.website/sitemap.xml": {
+      "url": "https://pixwave.framer.website/sitemap.xml",
+      "kind": "probe",
+      "paths": {
+        "raw": "probe/sitemap.xml"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://pixwave.framer.website/sitemap.xml",
+        "redirectChain": [],
+        "contentType": "text/xml",
+        "etag": "\"b31ce158e37ecba1ebac2fc48ab52b06\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:26 GMT"
+      },
+      "sha256": "7c8da2671e707fd40677e5c541c96aa15e9ebe8d26320d062f9db7e4a39079b0",
+      "size": 1736,
+      "fetchedAt": "2026-09-08T12:25:21.504Z"
+    },
+    "https://pixwave.framer.website/__migration-probe-404__": {
+      "url": "https://pixwave.framer.website/__migration-probe-404__",
+      "kind": "probe",
+      "paths": {
+        "raw": "probe/not-found.html"
+      },
+      "http": {
+        "status": 404,
+        "finalUrl": "https://pixwave.framer.website/__migration-probe-404__",
+        "redirectChain": [],
+        "contentType": "text/html",
+        "etag": "\"d8b15a55296e92e918caac052714e414\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:27 GMT"
+      },
+      "sha256": "cf846165585d0b59ba5dfda0c7cbd79f284c7361c31fa6a6a6f56f83ab71728c",
+      "size": 345083,
+      "fetchedAt": "2026-09-08T12:25:22.023Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/5Opz8ilBs9QWZSluahiO_40KfqKwvn2fpvo4FVVLSTU.BzBzEyKK.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/5Opz8ilBs9QWZSluahiO_40KfqKwvn2fpvo4FVVLSTU.BzBzEyKK.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/5opz8ilbs9qwzsluahio_40kfqkwvn2fpvo4fvvlstu.bzbzeykk.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/5Opz8ilBs9QWZSluahiO_40KfqKwvn2fpvo4FVVLSTU.BzBzEyKK.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"f15d06963b1c8e21a613b6929edc3d01\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "ba747f063060d066752d4e8aad8246cc18ebc459467204319793044a7800ea7d",
+      "size": 42870,
+      "fetchedAt": "2026-09-08T12:30:44.998Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/BfRWTFb_u.tj_KKjKM.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/BfRWTFb_u.tj_KKjKM.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/bfrwtfb_u.tj_kkjkm.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/BfRWTFb_u.tj_KKjKM.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"b9404411776a9b9ecade08205806eeab\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "35058c733abf87bf4dfcac2439b8cf7795bdb2995c2eff7a9c5b51bac6f15d3e",
+      "size": 34063,
+      "fetchedAt": "2026-09-08T12:30:46.552Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/DtAGkAHMu.DZAHYS0t.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/DtAGkAHMu.DZAHYS0t.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/dtagkahmu.dzahys0t.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/DtAGkAHMu.DZAHYS0t.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"a245c94a63428389b3ce52f6fdc0ce01\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "a13231a142292b5ddd430dd2b1dbc3dec2b523e000389c9f75751e5daff57e89",
+      "size": 9205,
+      "fetchedAt": "2026-09-08T12:30:47.240Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/DtAGkAHMu.YXeXDkAY.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/DtAGkAHMu.YXeXDkAY.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/dtagkahmu.yxexdkay.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/DtAGkAHMu.YXeXDkAY.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"80a605e6cca04c2086f83b36f57bb405\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "afac28acfaf81c00477790a6ab67a08e0afb01edab1ba76c7004726e537c6bcf",
+      "size": 9205,
+      "fetchedAt": "2026-09-08T12:30:47.911Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Eg15syi28.CD6bidy2.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Eg15syi28.CD6bidy2.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/eg15syi28.cd6bidy2.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Eg15syi28.CD6bidy2.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"c8ece123cbac82853fe59cf08dde612a\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "9c716a1b23c78943504780e73c849b8ee2a015fcce357a9997c060fcc5ebe187",
+      "size": 11724,
+      "fetchedAt": "2026-09-08T12:30:48.572Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/J8wYUXtP_.B5dsVtre.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/J8wYUXtP_.B5dsVtre.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/j8wyuxtp_.b5dsvtre.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/J8wYUXtP_.B5dsVtre.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"36fcd212cf096a3882d44ad4e8b71e1c\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "8b1dc133d73b84f8ae4af908900dc167baaa6c4031c976fcdb07350793b3bb4b",
+      "size": 31903,
+      "fetchedAt": "2026-09-08T12:30:52.400Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/LJbxS8clvpGjZoMBmOtl2r8OMJuei_DzYT0ryHac97c.BrSC0mhW.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/LJbxS8clvpGjZoMBmOtl2r8OMJuei_DzYT0ryHac97c.BrSC0mhW.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/ljbxs8clvpgjzombmotl2r8omjuei_dzyt0ryhac97c.brsc0mhw.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/LJbxS8clvpGjZoMBmOtl2r8OMJuei_DzYT0ryHac97c.BrSC0mhW.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"821e106abee575fb15f378607220da3c\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "39d2c9aeaf91bc652287038ac00a16bd661e8908f342dcd665ec0ef77897519c",
+      "size": 890752,
+      "fetchedAt": "2026-09-08T12:30:54.274Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/NlaIXNsBi.BE9G68oK.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/NlaIXNsBi.BE9G68oK.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/nlaixnsbi.be9g68ok.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/NlaIXNsBi.BE9G68oK.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"bea788d8281eedf5517a959b714512a0\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "6dc3a70a2b254f66235ad7740da428f61078ec51c526cea3775b0e7fb0ad164e",
+      "size": 38449,
+      "fetchedAt": "2026-09-08T12:30:56.493Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/O9tDudKtW.hZhxp_MD.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/O9tDudKtW.hZhxp_MD.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/o9tdudktw.hzhxp_md.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/O9tDudKtW.hZhxp_MD.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"da572c29cce73eea1ba964436bae7afe\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "bc95001f9b8cf0755c0c216c0772c585492162f225a4fac36486f87c1fe27c73",
+      "size": 15625,
+      "fetchedAt": "2026-09-08T12:30:58.626Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Py5A6qKn6.CLO9pjGe.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Py5A6qKn6.CLO9pjGe.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/py5a6qkn6.clo9pjge.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Py5A6qKn6.CLO9pjGe.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"4c6ac0d384101a386f894ee6ff4218f7\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "35cd444f8593b3146f9766fd7d5d34e1762f83353cca88d64e3df1a390571c26",
+      "size": 2940,
+      "fetchedAt": "2026-09-08T12:31:01.500Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/QkXABjXJz.BqUsUik7.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/QkXABjXJz.BqUsUik7.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/qkxabjxjz.bqusuik7.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/QkXABjXJz.BqUsUik7.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"9535b7f598e282766c4974897843a374\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "9f7dd46610030a05a4156cf87a702a862ae82284f3acaa6876fe8017da97ebcb",
+      "size": 1378,
+      "fetchedAt": "2026-09-08T12:31:02.291Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/UwqKE1tVN.BCLKPPM7.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/UwqKE1tVN.BCLKPPM7.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/uwqke1tvn.bclkppm7.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/UwqKE1tVN.BCLKPPM7.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"8f897839bd55d5a80065d8d505e4932f\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "bd0a9d46ac11301d606efb06fd8a247526ba69e8d7106a5dbc90a1bb12a2bc8d",
+      "size": 1377,
+      "fetchedAt": "2026-09-08T12:31:07.208Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/VNnGKRulb.DXIA8wwj.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/VNnGKRulb.DXIA8wwj.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/vnngkrulb.dxia8wwj.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/VNnGKRulb.DXIA8wwj.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"1c85383e979920f8698be44130b881b8\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "ec4cd847040834370cf0228c8952bb1a3c5cb7e475fe2e50f7bf2de36e7c6932",
+      "size": 11727,
+      "fetchedAt": "2026-09-08T12:31:08.596Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Video.DZtR_qXy.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Video.DZtR_qXy.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/video.dztr_qxy.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Video.DZtR_qXy.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"373bcd0d246c3379805602f8e417e400\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "f16e1b8fa355cf273fba5771f317dbbe548ab32fd5b619acbfa51c6df9c3fe80",
+      "size": 6891,
+      "fetchedAt": "2026-09-08T12:31:07.928Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/XPuzs7bdy.b4o6gW7V.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/XPuzs7bdy.b4o6gW7V.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/xpuzs7bdy.b4o6gw7v.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/XPuzs7bdy.b4o6gW7V.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"c202fed203962e824abb1afac090d331\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "b50c7ba4cefd7a2e89f0fc9f125344e20acccec4b3470211966f896a0f5a8dc9",
+      "size": 16634,
+      "fetchedAt": "2026-09-08T12:31:12.794Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Xx_sbLkzD.Bn1Fhn1o.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Xx_sbLkzD.Bn1Fhn1o.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/xx_sblkzd.bn1fhn1o.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Xx_sbLkzD.Bn1Fhn1o.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"cc7b2f1f2719ce2c76e9f91c907df372\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "28cbc086552ed1e0096308650886843a03d168be3b5c12024175491691606965",
+      "size": 2693,
+      "fetchedAt": "2026-09-08T12:31:13.437Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Z9BAG5RId.B9xF4mJh.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Z9BAG5RId.B9xF4mJh.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/z9bag5rid.b9xf4mjh.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Z9BAG5RId.B9xF4mJh.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"e79f797bddae86bff932b4e7702da980\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "3917eae615d68745cad5ffdbe1266c931257ef30c8c20da33e3beda2677b36fe",
+      "size": 11724,
+      "fetchedAt": "2026-09-08T12:31:14.172Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Z9BAG5RId.Box6v4Q8.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Z9BAG5RId.Box6v4Q8.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/z9bag5rid.box6v4q8.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/Z9BAG5RId.Box6v4Q8.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"5b1349bb52584893a637079d53192e5e\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "4bf8f2adea9d46e7831bcd64b178893565c4ddb1746ca2770ec857b72a1d06c1",
+      "size": 11724,
+      "fetchedAt": "2026-09-08T12:31:14.829Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/augiA20Il.UQOElWHw.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/augiA20Il.UQOElWHw.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/augia20il.uqoelwhw.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/augiA20Il.UQOElWHw.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "\"a293552432591949c82d166ea000776f\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "6cbdf2708e0e01253dac0d1abef90350b6ee3a076189a8b3a05e7a839cf6962e",
+      "size": 819,
+      "fetchedAt": "2026-09-08T12:30:45.703Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/framer.Ffg8VGGt.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/framer.Ffg8VGGt.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/framer.ffg8vggt.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/framer.Ffg8VGGt.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"adf0706a786e3c1fd3626ab5c7b1080a\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "5a1a86d3129ec6bd50797b978ace57b42847e6b77ce83a2454bdc1ad91f69329",
+      "size": 468772,
+      "fetchedAt": "2026-09-08T12:30:50.273Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/gldAscZCz.CD8mpntR.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/gldAscZCz.CD8mpntR.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/gldasczcz.cd8mpntr.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/gldAscZCz.CD8mpntR.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"c4b604931a087775faab076e4503280a\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "fe973bfd3eab7d4a17f154d1d3395508cf1d576b53bab2bf27634a022d102555",
+      "size": 20970,
+      "fetchedAt": "2026-09-08T12:30:51.693Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/lZD6PolfV.DOtPoKCq.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/lZD6PolfV.DOtPoKCq.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/lzd6polfv.dotpokcq.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/lZD6PolfV.DOtPoKCq.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"de4f1fb4e129f3ef8df4cc4bd5423fd4\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "e7f19292a2302829336035ed427fb0399fd5aaf0f7ddd4e1153a93bd22162876",
+      "size": 11736,
+      "fetchedAt": "2026-09-08T12:30:54.903Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/motion.CPFZHTMY.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/motion.CPFZHTMY.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/motion.cpfzhtmy.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/motion.CPFZHTMY.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"ea534313dd247d11eeff828e759d3c19\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "c421a6967e9974a17f5419d7bfe49a89f3bc4dca70ac0bfbb90cca228ebe5fb1",
+      "size": 146598,
+      "fetchedAt": "2026-09-08T12:30:55.780Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/nOAzyEU6J.Ck3IVGtP.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/nOAzyEU6J.Ck3IVGtP.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/noazyeu6j.ck3ivgtp.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/nOAzyEU6J.Ck3IVGtP.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"2aa51fa0030307431a2444148e31b1d9\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "2ccd6c1b256c044dd0bc12ddaf9bb3288e5624cfb93d76961031838374d4aa64",
+      "size": 9207,
+      "fetchedAt": "2026-09-08T12:30:57.218Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/oSmyoghJ9MEiHeAbxJhOMMS4KuO6jJOYqL9fGUabi5Y.DdyhyThT.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/oSmyoghJ9MEiHeAbxJhOMMS4KuO6jJOYqL9fGUabi5Y.DdyhyThT.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/osmyoghj9meiheabxjhomms4kuo6jjoyql9fguabi5y.ddyhytht.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/oSmyoghJ9MEiHeAbxJhOMMS4KuO6jJOYqL9fGUabi5Y.DdyhyThT.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"6c74297b9436b4cacfaaa73843be472a\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "69efcc540a522bb08e9592b9ae6572deb08a4c1b2ef0788800188d24b38deb6b",
+      "size": 55577,
+      "fetchedAt": "2026-09-08T12:30:59.472Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/pJzokSGX4.BEKnsFUk.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/pJzokSGX4.BEKnsFUk.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/pjzoksgx4.beknsfuk.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/pJzokSGX4.BEKnsFUk.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"7a1d0fb850c03186a0dc406c897a56fa\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "feee122957547abcba923ec0a7dcebd70d36050798d56aa8b844941c7f0b28da",
+      "size": 67301,
+      "fetchedAt": "2026-09-08T12:31:00.270Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/react.DoSzFZ8w.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/react.DoSzFZ8w.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/react.doszfz8w.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/react.DoSzFZ8w.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"3ef97ff9c839a6da9b0c5d422f9ca096\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "54c04ddd2811f503295cb4289090216c36b254de1395a81db79111479912cc3b",
+      "size": 144672,
+      "fetchedAt": "2026-09-08T12:31:03.163Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/rolldown-runtime.CXBuSdYp.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/rolldown-runtime.CXBuSdYp.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/rolldown-runtime.cxbusdyp.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/rolldown-runtime.CXBuSdYp.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "\"e969b9bb0e10158787005a06c6bce71b\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "f1435ec7bc9c842dc4486f85d59c301567879aa78bebd1764f1a06456f6c2b6b",
+      "size": 191,
+      "fetchedAt": "2026-09-08T12:31:04.545Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/script_main.g0XIa43a.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/script_main.g0XIa43a.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/script_main.g0xia43a.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/script_main.g0XIa43a.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"b200d608fa974deb4f1291935c3beb3b\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "8a4aa633bc4426e9bad505b1c5ae63523275bfba48733175860c2d102a53326f",
+      "size": 102576,
+      "fetchedAt": "2026-09-08T12:31:04.842Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/shared-lib.C_N7NT1P.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/shared-lib.C_N7NT1P.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/shared-lib.c_n7nt1p.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/shared-lib.C_N7NT1P.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"80765781c6ce9450870841d20d68da80\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "f5cfe74f1b228def4cb5a67a64de1503f76e3f8fd1e88d23ef15242995d196a8",
+      "size": 52485,
+      "fetchedAt": "2026-09-08T12:31:05.602Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/xOGhXoqW7.4b2fC4MA.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/xOGhXoqW7.4b2fC4MA.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/xoghxoqw7.4b2fc4ma.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/xOGhXoqW7.4b2fC4MA.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"40593f6f51979ba4b6f8e050265e8ba5\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "07df8cd74b275a68891a787ac39df6a2548f87f984885c2ea23177e9b65376d9",
+      "size": 8700,
+      "fetchedAt": "2026-09-08T12:31:11.305Z"
+    },
+    "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/xOGhXoqW7.DK203UXm.mjs": {
+      "url": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/xOGhXoqW7.DK203UXm.mjs",
+      "kind": "script",
+      "paths": {
+        "raw": "scripts/xoghxoqw7.dk203uxm.mjs"
+      },
+      "http": {
+        "status": 200,
+        "finalUrl": "https://framerusercontent.com/sites/3XZtkq24TgYhyL2CZgGizM/xOGhXoqW7.DK203UXm.mjs",
+        "redirectChain": [],
+        "contentType": "text/javascript",
+        "etag": "W/\"d6232cf7b56eb93917ba10bc627e0120\"",
+        "lastModified": "Sat, 14 Feb 2026 12:46:25 GMT"
+      },
+      "sha256": "2e349a8c77499544026c9c3229a768533b6a566dd681aa8c8ce38819a61918d7",
+      "size": 17401,
+      "fetchedAt": "2026-09-08T12:31:12.123Z"
+    }
+  }
+}
