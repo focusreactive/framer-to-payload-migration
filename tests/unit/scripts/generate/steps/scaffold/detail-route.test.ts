@@ -25,7 +25,7 @@ describe("emitDetailWrapper", () => {
       collectionKey: "works",
       collectionSlug: "works",
       pageBinding: { slugField: "slug", meta: {} },
-      template: [{ sectionId: "hero" }],
+      template: [{ sectionId: "hero", itemFields: [] }],
     });
 
     expect(source).toContain("params: Promise<{ slug: string }>");
@@ -39,13 +39,13 @@ describe("emitDetailWrapper", () => {
       collectionKey: "blog",
       collectionSlug: "blog",
       pageBinding: { slugField: "title", meta: {} },
-      template: [{ sectionId: "hero" }, { sectionId: "post-body" }],
+      template: [{ sectionId: "hero", itemFields: [] }, { sectionId: "post-body", itemFields: [] }],
     });
 
     expect(source).toContain('import Hero from "@/detail/blog/sections/Hero";');
     expect(source).toContain('import PostBody from "@/detail/blog/sections/PostBody";');
-    expect(source).toContain("<Hero doc={doc} />");
-    expect(source).toContain("<PostBody doc={doc} />");
+    expect(source).toContain("<Hero {...heroProps} />");
+    expect(source).toContain("<PostBody {...postBodyProps} />");
     expect(source).toContain("if (!doc) notFound();");
   });
 
@@ -54,7 +54,7 @@ describe("emitDetailWrapper", () => {
       collectionKey: "works",
       collectionSlug: "works",
       pageBinding: { slugField: "seo-slug", meta: {} },
-      template: [{ sectionId: "hero" }],
+      template: [{ sectionId: "hero", itemFields: [] }],
     });
 
     expect(source).toContain('where: { ["seo-slug"]: { equals: slug } }');
@@ -70,7 +70,7 @@ describe("emitDetailWrapper", () => {
         slugField: "title",
         meta: { title: "title", description: "excerpt", ogImage: "cover" },
       },
-      template: [{ sectionId: "hero" }],
+      template: [{ sectionId: "hero", itemFields: [] }],
     });
 
     expect(source).toContain("export async function generateMetadata({ params }: Args): Promise<Metadata>");
@@ -84,7 +84,7 @@ describe("emitDetailWrapper", () => {
       collectionKey: "works",
       collectionSlug: "works",
       pageBinding: { slugField: "slug", meta: {} },
-      template: [{ sectionId: "hero" }],
+      template: [{ sectionId: "hero", itemFields: [] }],
     });
 
     expect(source).toContain("export async function generateMetadata({ params }: Args): Promise<Metadata> {");
