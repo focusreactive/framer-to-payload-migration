@@ -40,13 +40,13 @@ export function artifactPath(projectPath: string, def: ArtifactDef<unknown>): st
 export async function writeArtifact<D>(
   projectPath: string,
   def: ArtifactDef<D>,
-  input: { provenance: Provenance; data: D },
+  payload: { provenance: Provenance; data: D },
 ): Promise<void> {
   const envelope = artifactEnvelope(def.dataSchema, def.schemaVersion);
   const validated = envelope.parse({
     schemaVersion: def.schemaVersion,
-    provenance: input.provenance,
-    data: input.data,
+    provenance: payload.provenance,
+    data: payload.data,
   });
   await writeFileAtomic(artifactPath(projectPath, def), `${JSON.stringify(validated, null, 2)}\n`);
 }
@@ -83,7 +83,7 @@ export type NdjsonMeta = z.infer<typeof ndjsonMetaSchema>;
 export async function writeNdjsonArtifact<D>(
   projectPath: string,
   def: ArtifactDef<D>,
-  input: {
+  payload: {
     provenance: Provenance;
     items: readonly D[];
     extraMeta?: Record<string, unknown>;
@@ -92,10 +92,10 @@ export async function writeNdjsonArtifact<D>(
   const meta = {
     kind: "meta",
     schemaVersion: def.schemaVersion,
-    provenance: input.provenance,
-    ...input.extraMeta,
+    provenance: payload.provenance,
+    ...payload.extraMeta,
   };
-  const lines = [JSON.stringify(meta), ...input.items.map((item) => JSON.stringify(def.dataSchema.parse(item)))];
+  const lines = [JSON.stringify(meta), ...payload.items.map((item) => JSON.stringify(def.dataSchema.parse(item)))];
   await writeFileAtomic(artifactPath(projectPath, def), `${lines.join("\n")}\n`);
 }
 
