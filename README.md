@@ -33,7 +33,7 @@ The generated project runs on SQLite, so there is nothing to provision.
 Launch Claude Code and call migration skill:
 
 ```
-/migrate https://pixwave.framer.website/
+/migrate https://your-framer-site
 ```
 
 The migration runs in a workspace beside this repository (`../migrations/<project-name>` by
@@ -73,19 +73,19 @@ picks up at the first step that is not `done`.
 
 ## 🚀 Need Help with Headless CMS Migration?
 
-This repository is maintained by [FocusReactive](https://focusreactive.com) — a Next.js and headless
-CMS migration agency.
+This repository is maintained by [FocusReactive](https://focusreactive.com) — a specialized Next.js and Headless CMS migration agency.
 
-We migrate enterprise sites off legacy monoliths (WordPress, Drupal, Sitecore) and visual builders
-(Webflow, Framer) onto Sanity, Payload CMS, Storyblok and MedusaJS. We are verified Sanity, Storyblok
-and Payload partners.
+We help enterprise businesses migrate from legacy monoliths (WordPress, Drupal, Sitecore) and visual builders (Webflow, Framer) to modern stacks like Sanity, Payload CMS, Storyblok, and MedusaJS.
 
-The pipeline in this repository is one path out of that matrix, published in full. The internal
-version of the same tooling covers the others — if your migration path isn't Framer → Payload,
-ask us about it.
+The pipeline in this repository is one path out of that matrix, published in full. The internal version of the same tooling covers the others — if your migration path isn't Framer → Payload, ask us about it.
 
-👉 **[Get a Free Migration Consultation](https://focusreactive.com/services/headless-cms-expert-agency/)**
-or contact us at contact@focusreactive.com.
+### Why FocusReactive?
+
+- **Expertise:** Verified Sanity, Payload, and Storyblok partners.
+- **Speed:** We use our proprietary [CMS Kit](https://github.com/focusreactive/cms-kit) to speed up migrations by 40%.
+- **SEO & Performance:** Zero downtime migrations with 100/100 Lighthouse scores.
+
+👉 **[Get a Free Migration Consultation](https://focusreactive.com/services/headless-cms-expert-agency/)** or contact us at contact@focusreactive.com.
 
 ## License
 
