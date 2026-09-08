@@ -237,13 +237,13 @@ step, never on their own.
 
 Under `<projectPath>/.migration/artifacts/discovery/`:
 
-| path                               | holds                                                                                                                        |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `globals.json`                     | one type per global (`header`, `footer`), its exemplar naming the source route and every node id the chrome occupies       |
-| `blocks.json`                      | site-wide block types with minted ids, each naming the exemplar's route and every node id it spans                           |
-| `collections.json`                 | one entry per collection: representative item route and its ordered sections                                                 |
-| `blocks/<routeKey>.json`           | the per-route shards the fan-out produced                                                                                    |
-| `_evidence/<routeKey>.desktop.png` | the downscaled stitch a subject step wrote for grounding                                                                     |
+| path                               | holds                                                                                                                |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `globals.json`                     | one type per global (`header`, `footer`), its exemplar naming the source route and every node id the chrome occupies |
+| `blocks.json`                      | site-wide block types with minted ids, each naming the exemplar's route and every node id it spans                   |
+| `collections.json`                 | one entry per collection: representative item route and its ordered sections                                         |
+| `blocks/<routeKey>.json`           | the per-route shards the fan-out produced                                                                            |
+| `_evidence/<routeKey>.desktop.png` | the downscaled stitch a subject step wrote for grounding                                                             |
 
 `jq '.data.types | length' …/discovery/blocks.json` greater than zero is the
 quickest check that dedup actually landed; acceptance already refused a response

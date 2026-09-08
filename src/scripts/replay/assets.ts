@@ -90,7 +90,7 @@ export async function createReplayLookup(projectPath: string): Promise<ReplayLoo
     }
     const hit = idByUrl.get(canonical);
     if (hit !== undefined) return hit;
-    return normalizer.isVariant(url) ? idByUrl.get(canonical) : undefined;
+    return undefined;
   };
 
   const read = async (id: string): Promise<ReplayBody | undefined> => {

@@ -38,9 +38,9 @@ Deterministic work, in order:
      index missed.
    - **No sitemap, no search-index.** Link-BFS from the source URL alone,
      following in-origin anchors page by page.
-   Each fetched page is parsed for its `data-framer-hydrate-v2` SSR payload;
-   pages with a `collectionItemId` are classified as collection items (keyed by
-   the hydration payload's `routeId`), everything else is a static page.
+     Each fetched page is parsed for its `data-framer-hydrate-v2` SSR payload;
+     pages with a `collectionItemId` are classified as collection items (keyed by
+     the hydration payload's `routeId`), everything else is a static page.
 4. Write `pages.json` (`{ pages: [...], collections: [...] }`) and record it
    against the `inventory` step.
 

@@ -64,8 +64,7 @@ field-level rules are applied rather than inherited from the inference:
 
 Each discovered block type is emitted as a Payload `Block` config with its own `interfaceName`,
 registered in the page builder's blocks array, and paired with a generated React component under the
-app's block registry — the component that renders it on the frontend is the same one Payload's admin
-uses to preview it. Rich text fields inferred from a section's copy are authored against Payload's
+app's block registry. Rich text fields inferred from a section's copy are authored against Payload's
 Lexical dialect rather than plain strings, so the admin editing experience matches what an editor
 would expect from a block with a heading and body copy.
 

@@ -102,20 +102,20 @@ Prints one row per step; both must be `done`:
 Read `<projectPath>/.migration/artifacts/assets/media.json`. Shape:
 `{schemaVersion, provenance, data:{assets:[…]}}`, one record per image or video:
 
-| field                        | holds                                                                          |
-| ---------------------------- | ------------------------------------------------------------------------------ |
-| `assetId`                    | 16 hex chars of sha256 over `canonicalUrl` — the id every later payload uses   |
-| `kind`                       | `image` / `video`                                                              |
-| `canonicalUrl`               | the folded CDN URL                                                             |
-| `status`                     | `downloaded` / `failed`                                                        |
-| `sources`                    | where it was referenced (`img-src`, `css-url`, `og-image`, …)                  |
+| field                        | holds                                                                               |
+| ---------------------------- | ----------------------------------------------------------------------------------- |
+| `assetId`                    | 16 hex chars of sha256 over `canonicalUrl` — the id every later payload uses        |
+| `kind`                       | `image` / `video`                                                                   |
+| `canonicalUrl`               | the folded CDN URL                                                                  |
+| `status`                     | `downloaded` / `failed`                                                             |
+| `sources`                    | where it was referenced (`img-src`, `css-url`, `og-image`, …)                       |
 | `fileName`                   | the CDN path segment (`<id>.<ext>`) — Framer gives no recoverable original filename |
 | `platformId`, `originalName` | `platformId` is that same `<id>`; `originalName` is never present on a Framer asset |
-| `storePath`                  | path under `.migration/snapshot/assets/media/` — absent on `failed`            |
-| `contentSha256`, `size`      | of the downloaded bytes                                                        |
-| `alt`                        | the most frequent non-empty `alt`, when any reference carried one              |
-| `aliasOf`                    | set when another record already holds identical bytes                          |
-| `failureReason`              | why the download failed                                                        |
+| `storePath`                  | path under `.migration/snapshot/assets/media/` — absent on `failed`                 |
+| `contentSha256`, `size`      | of the downloaded bytes                                                             |
+| `alt`                        | the most frequent non-empty `alt`, when any reference carried one                   |
+| `aliasOf`                    | set when another record already holds identical bytes                               |
+| `failureReason`              | why the download failed                                                             |
 
 Every record with `status: "downloaded"` has its `storePath` file on disk under
 `<projectPath>/.migration/snapshot/`.

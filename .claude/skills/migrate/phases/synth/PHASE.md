@@ -18,7 +18,7 @@ instead, because they work over the whole vertical rather than one entity.
 
 There is no per-node join between reference and candidate. The candidate carries no `data-mig-id`
 anywhere. Structure, tag names, wrapper divs: all free. What the author matches is what the
-reference frame *looks like*.
+reference frame _looks like_.
 
 The phase is two steps, one of them a nest of loops:
 
@@ -209,13 +209,13 @@ Agent(
 
 `--accept` is deterministic and runs five liveness checks on what the author left behind:
 
-| check             | what it asserts                                                        |
-| ----------------- | ---------------------------------------------------------------------- |
-| `syntax`          | `Component.tsx` parses as tsx                                          |
-| `input-covered`   | every declared field has a value in `input.json`                       |
-| `input-used`      | the component references every key of `input.json`                     |
-| `assets-resolve`  | every media value points at an asset in `assets/media.json`            |
-| `harness-renders` | the harness answers for this surface with a non-empty body             |
+| check             | what it asserts                                             |
+| ----------------- | ----------------------------------------------------------- |
+| `syntax`          | `Component.tsx` parses as tsx                               |
+| `input-covered`   | every declared field has a value in `input.json`            |
+| `input-used`      | the component references every key of `input.json`          |
+| `assets-resolve`  | every media value points at an asset in `assets/media.json` |
+| `harness-renders` | the harness answers for this surface with a non-empty body  |
 
 It prints `{ step: "synth:accept", vertical, surface, accepted, checks }`. Only when all five pass
 does it write the surface's `record.json` with `phase: "done"`; otherwise it prints each failed

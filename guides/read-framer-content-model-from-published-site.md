@@ -10,7 +10,7 @@ a published site.
 The crawl branches on one condition — whether a sitemap was found — and the two branches don't mix.
 
 **A sitemap exists.** A published Framer site's `sitemap.xml` is complete — it lists every static
-route and every CMS item route the site publishes. When it's present, it is the *sole* seed source:
+route and every CMS item route the site publishes. When it's present, it is the _sole_ seed source:
 the sitemap's URLs plus the entry URL you were given are enqueued, and nothing else is fetched for
 routes. Link BFS does not run in this branch, and neither does the search-index endpoint — with a
 complete sitemap, both would only rediscover pages already queued.
@@ -60,8 +60,9 @@ Group every item page by its `routeId`. Each group is one collection: the `route
 its item count is however many item pages the crawl found carrying it. Two Framer-specific
 wrinkles worth knowing:
 
-- **Locale.** `localeId` rides along in the same payload. A localized site produces one hydration
-  record per locale per item; the crawl does not collapse these on its own; a downstream phase does.
+- **Locale.** `localeId` rides along in the same payload and is recorded through the pipeline for
+  diagnostics and traceability. Locale migration is out of scope for this version (single-locale
+  v1) — nothing downstream reads or collapses it.
 - **Route source matters for coverage, not classification.** Whether a page was found via the
   sitemap, link BFS, or the search index changes nothing about how it's classified — the
   `collectionItemId`/`routeId` rule applies identically regardless of how the crawler reached the

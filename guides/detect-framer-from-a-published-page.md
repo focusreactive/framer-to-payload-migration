@@ -72,7 +72,7 @@ answers "does this page reference Framer's CDN," which a site could do by copyin
 into its own build without ever having been built in Framer. `server: Framer/<build>` answers "did
 this response come through Framer's edge," which is spoofable at a proxy. Only
 `data-framer-hydrate-v2` is tied to the runtime actually executing on the page, which is why it
-alone is treated as `tier1Html` strong evidence rather than corroborating evidence.
+is treated as `tier1Html` strong evidence rather than corroborating evidence.
 
 ## Source in this repository
 
