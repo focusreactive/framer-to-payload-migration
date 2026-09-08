@@ -271,7 +271,9 @@ async function main(): Promise<void> {
     ((await readEnvelope<{ collections: CollectionDef[] }>("collections.json")) ?? { collections: [] }).collections;
   const blocks = ((await readEnvelope<{ blocks: BlockDef[] }>("blocks.json")) ?? { blocks: [] }).blocks;
   const globals = ((await readEnvelope<{ globals: GlobalDef[] }>("globals.json")) ?? { globals: [] }).globals;
-  const assets = ((await readEnvelope<{ assets: AssetRecord[] }>("assets.json")) ?? { assets: [] }).assets;
+  const assets = (
+    (await readEnvelope<{ assets: AssetRecord[] }>(path.join("assets", "media.json"))) ?? { assets: [] }
+  ).assets;
 
   const urlToAssetId = new Map(assets.map((asset) => [asset.canonicalUrl, asset.assetId]));
   const resolveAssetId = (url: string): string | undefined => urlToAssetId.get(url);
