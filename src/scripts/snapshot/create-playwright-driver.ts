@@ -1,5 +1,6 @@
 import { chromium, type Browser } from "playwright";
 
+import { GOTO_TIMEOUT_MS } from "#lib/capture/defaults.ts";
 import { installEvaluateShim } from "#lib/page-evaluate.ts";
 
 import { captureViewportStitch } from "./capture-viewport-stitch.ts";
@@ -43,7 +44,7 @@ export function createPlaywrightDriver(): BrowserDriver {
         });
 
         await applyViewport(page, cdp, primarySize);
-        await page.goto(url, { waitUntil: "load" });
+        await page.goto(url, { waitUntil: "load", timeout: GOTO_TIMEOUT_MS });
         await waitForNetworkIdle(page);
         await page.waitForTimeout(settleMs);
 

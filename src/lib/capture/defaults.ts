@@ -9,3 +9,5 @@ export const VIEWPORTS: Record<string, Viewport> = {
 };
 
 export const SETTLE_MS = 6000;
+
+export const GOTO_TIMEOUT_MS = 90_000;
