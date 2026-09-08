@@ -38,6 +38,16 @@ the URL already points at the original. Because canonicalisation drops the whole
 every `scale-down-to` variant of an id resolves to the exact same canonical URL as the original —
 there is no suffix to strip and no separate lookup needed to fold a variant back onto its source.
 
+## Where do asset references hide?
+
+Scanning `<img src>` finds most images but not all of them, so references are collected from eight
+places: `img-src`, `img-srcset`, `background-image`, `css-url`, `lightbox-json`, `video-urls`,
+`poster-url`, `og-image`. Each candidate URL is filtered through `isVariant` before anything is
+grouped, so a `srcset` listing five scaled copies of the same photo contributes zero references —
+only the bare original, wherever it's referenced from, survives the filter. Alt text is collected
+per reference too, and when the same canonical URL is referenced with different alt text on
+different pages, the most frequent non-empty value is the one that's kept.
+
 ## Source in this repository
 
 - [`src/adapters/framer/media-normalize.ts`](../src/adapters/framer/media-normalize.ts) — dropping

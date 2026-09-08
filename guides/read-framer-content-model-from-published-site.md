@@ -7,22 +7,25 @@ a published site.
 
 ## How do you find every page?
 
-Two sources, used in a fixed order of preference.
+The crawl branches on one condition — whether a sitemap was found — and the two branches don't mix.
 
-1. **The sitemap.** A published Framer site's `sitemap.xml` is complete — it lists every static
-   route and every CMS item route the site publishes. Because of that completeness, the sitemap is
-   the primary source of pages, not a fallback.
-2. **Link breadth-first search**, starting from the entry URL, following same-origin anchors. This
-   only runs when there is no sitemap to read. It is a fallback precisely because it is incomplete
-   in a way the sitemap is not: a page reachable only through client-side navigation, or simply not
-   linked from any crawled page, is invisible to it.
+**A sitemap exists.** A published Framer site's `sitemap.xml` is complete — it lists every static
+route and every CMS item route the site publishes. When it's present, it is the *sole* seed source:
+the sitemap's URLs plus the entry URL you were given are enqueued, and nothing else is fetched for
+routes. Link BFS does not run in this branch, and neither does the search-index endpoint — with a
+complete sitemap, both would only rediscover pages already queued.
 
-A third source narrows a gap neither of the above closes reliably: the **search-index endpoint**,
-whose URL comes from the `<meta name="framer-search-index">` tag (see [Detecting Framer from a
-published page](detect-framer-from-a-published-page.md)). Its JSON body's keys are the paths of
-every CMS route the site publishes, including collection items that a sitemap omits or that link
-BFS can't reach. When a sitemap exists, this endpoint still runs, and its paths are merged into the
-crawl queue as a third source of pages.
+**No sitemap exists.** Two sources take over, together: the **search-index endpoint**, whose URL
+comes from the `<meta name="framer-search-index">` tag (see [Detecting Framer from a published
+page](detect-framer-from-a-published-page.md)) — its JSON body's keys are the paths of every CMS
+route the site publishes — and **link breadth-first search** from the entry URL, following
+same-origin anchors as pages are fetched. Neither is complete on its own: the search index only
+enumerates CMS routes, so it says nothing about static pages, and link BFS only finds what's linked
+from somewhere already crawled. Running both is how this branch approximates the coverage the
+sitemap branch gets for free.
+
+So the search-index endpoint is a fallback route source, not a third source merged in alongside the
+sitemap — when a sitemap is present, the search-index endpoint is never fetched.
 
 ## How do you tell a collection item page from a static page?
 
@@ -79,8 +82,8 @@ might come out as `subtitle` or `tagline` depending on what the rendered markup 
 
 - [`src/adapters/framer/hydrate.ts`](../src/adapters/framer/hydrate.ts) — parsing
   `data-framer-hydrate-v2` into `routeId`, `collectionItemId`, `pathVariables`, `localeId`
-- [`src/adapters/framer/crawl.ts`](../src/adapters/framer/crawl.ts) — the sitemap-first crawl, the
-  search-index merge, and the item-versus-static classification
+- [`src/adapters/framer/crawl.ts`](../src/adapters/framer/crawl.ts) — the sitemap-vs-fallback
+  branch, the search-index and link-BFS fallback sources, and the item-versus-static classification
 - [`src/adapters/framer/searchindex.ts`](../src/adapters/framer/searchindex.ts) — parsing the
   search-index JSON into route paths
 
