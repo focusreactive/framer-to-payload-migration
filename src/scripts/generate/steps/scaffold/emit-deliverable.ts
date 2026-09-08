@@ -164,6 +164,7 @@ export async function emitDeliverable(args: { projectPath: string }): Promise<{ 
     "src/lib/normalize-values.ts",
     await readFile(join(DELIVERABLE_SRC_DIR, "lib/normalize-values.ts"), "utf8"),
   );
+  draft.emit("src/lib/access.ts", await readTemplate("lib/access.ts.tpl"));
   draft.emit("src/lib/media-prop.ts", await readTemplate("lib/media-prop.ts.tpl"));
   draft.emit("src/lib/block-field-types.ts", emitBlockFieldTypesFile(blocks, slugFor));
   draft.emit("src/lib/collection-field-types.ts", emitCollectionFieldTypesFile(collectionEntries, slugFor));
