@@ -64,6 +64,15 @@ export function scanHtmlMediaRefs(html: string, baseUrl: string): ScannedMediaRe
     }
   });
 
+  $("video").each((_, el) => {
+    const video = $(el);
+    push(video.attr("src"), "video-urls", "video");
+    push(video.attr("poster"), "poster-url", "image");
+    video.find("source").each((_srcIdx, sourceEl) => {
+      push($(sourceEl).attr("src"), "video-urls", "video");
+    });
+  });
+
   $("[data-poster-url]").each((_, el) => {
     push($(el).attr("data-poster-url"), "poster-url", "image");
   });
